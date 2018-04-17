@@ -1,0 +1,20 @@
+{
+    "none": {
+        "Source": [
+            "Source/MyGame_precompiled.cpp",
+            "Source/MyGame_precompiled.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/MyGame/MyGameBus.h"
+        ],
+        "Source": [
+            "Source/MyGameModule.cpp",
+            "Source/MyGameSystemComponent.cpp",
+            "Source/MyGameSystemComponent.h",
+            "Source/MyGameComponent.cpp",
+            "Source/MyGameComponent.h"
+        ]
+    }
+}
