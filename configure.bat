@@ -1,0 +1,1 @@
+lmbr_waf.bat configure --enabled-game-projects=MyGame
