@@ -3,7 +3,7 @@
         {
             "long_form": "--enabled-game-projects", 
             "attribute": "enabled_game_projects", 
-            "default_value": "StarterGame, CloudGemSamples", 
+            "default_value": "MyGame", 
             "description": "Comma-separated list of game projects to enable for compiling"
         }
     ], 
@@ -277,7 +277,7 @@
         {
             "long_form": "--bootstrap-tool-param", 
             "attribute": "bootstrap_tool_param", 
-            "default_value": "", 
+            "default_value": "--enablecapability compileengine --enablecapability compilegame --enablecapability compilesandbox --enablecapability runeditor --enablecapability rungame --enablecapability vc140 --enablecapability windows", 
             "description": "Optional parameters to pass to SetupAssistantBatch.exe"
         }, 
         {
