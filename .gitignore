@@ -1,6 +1,9 @@
 !Bin64vc140/*.*
 !Bin64vc140/**/*.*
 
+*_savebackup*
+
+
 # Make an exception to ignore specific directories
 # Most of these directories are brought in by executing git_bootstrap.
 3rdParty
@@ -11,6 +14,7 @@ Bin64vc120
 Bin64vc120.Debug
 #Bin64vc140
 Bin64vc140/logs
+Bin64vc140/*.log
 Bin64vc140.Debug
 Cache
 FeatureTests
