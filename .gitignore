@@ -2,6 +2,7 @@
 !Bin64vc140/**/*.*
 
 *_savebackup*
+**/*_savebackup*
 
 
 # Make an exception to ignore specific directories
