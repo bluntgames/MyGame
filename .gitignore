@@ -100,10 +100,10 @@
 !**/*.gitattributes
 !**/*.p4ignore
 
-!Bin/*.exe
-!Bin/*.dll
-!Bin/**/*.exe
-!Bin/**/*.dll
+!Bin64vc140/*.exe
+!Bin64vc140/*.dll
+!Bin64vc140/**/*.exe
+!Bin64vc140/**/*.dll
 
 # Make an exception to ignore specific directories
 # Most of these directories are brought in by executing git_bootstrap.
@@ -113,7 +113,7 @@ BinTemp
 Bin64
 Bin64vc120
 Bin64vc120.Debug
-Bin64vc140
+#Bin64vc140
 Bin64vc140.Debug
 Cache
 FeatureTests
