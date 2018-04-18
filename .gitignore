@@ -97,6 +97,8 @@
 !**/TODO
 !**/waf
 !**/*.gitignore
+!**/*.gitattributes
+!**/*.p4ignore
 
 !Bin/*.exe
 !Bin/*.dll
